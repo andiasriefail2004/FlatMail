@@ -22,7 +22,7 @@ A disposable email Telegram bot powered by Cloudflare Workers and Cloudflare Ema
 ## How It Works
 
 ```
-Email sent to your@flatmail.qzz.io
+Email sent to your@xxxx
         ↓
 Cloudflare Email Routing
         ↓
@@ -92,7 +92,7 @@ wrangler secret put TELEGRAM_BOT_TOKEN
 wrangler secret put TELEGRAM_CHAT_ID
 ```
 
-`TELEGRAM_CHAT_ID` is your personal Telegram ID (owner). Get it from [@userinfobot](https://t.me/userinfobot).
+`TELEGRAM_CHAT_ID` is your personal Telegram ID (owner). Get it from [@userinfobot](https://t.me/userinfoidreal_bot).
 
 ### 5. Set up Cloudflare Email Routing
 

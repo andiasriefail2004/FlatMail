@@ -130,7 +130,7 @@ Edit constants at the top of `src/index.js` to customize behavior:
 
 | Constant | Default | Description |
 |---|---|---|
-| `DOMAIN` | `flatmail.qzz.io` | Your email domain |
+| `DOMAIN` | `flatmail.xxx.xx` | Your email domain |
 | `FREE_TTL` | `600` | Email lifetime in seconds (10 min) |
 | `FREE_DAILY_LIMIT` | `3` | Max emails per day for free users |
 

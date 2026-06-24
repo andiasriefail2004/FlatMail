@@ -1,0 +1,16 @@
+{
+  "name": "flatmail-bot",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "dependencies": {
+    "html-to-text": "^9.0.5",
+    "postal-mime": "^2.3.3"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}

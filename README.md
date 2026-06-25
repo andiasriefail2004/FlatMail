@@ -1,6 +1,12 @@
 # FlatMail 📬
 
-A disposable email Telegram bot powered by Cloudflare Workers and Cloudflare Email Routing. Get instant temporary email addresses and receive real-time notifications with automatic OTP detection — all inside Telegram.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Node.js](https://img.shields.io/badge/Node.js-18+-green?logo=node.js)](https://nodejs.org/)
+[![Cloudflare Workers](https://img.shields.io/badge/Cloudflare-Workers-FF9900?logo=cloudflare)](https://workers.cloudflare.com/)
+[![Telegram Bot API](https://img.shields.io/badge/Telegram-Bot%20API-0088cc?logo=telegram)](https://core.telegram.org/bots/api)
+[![GitHub](https://img.shields.io/badge/GitHub-andiasriefail2004-black?logo=github)](https://github.com/andiasriefail2004)
+
+A disposable email Telegram bot powered by Cloudflare Workers and Cloudflare Email Routing. Get instant temporary email addresses and receive real-time notifications with automatic OTP detection 🔐
 
 🤖 **Try it:** [@FlatMailBot](https://t.me/FlatMailBot)
 
@@ -8,7 +14,7 @@ A disposable email Telegram bot powered by Cloudflare Workers and Cloudflare Ema
 
 ---
 
-## Features
+## ✨ Features
 
 - 📬 Instant disposable email generation
 - 🔑 Automatic OTP & verification code detection
@@ -16,10 +22,11 @@ A disposable email Telegram bot powered by Cloudflare Workers and Cloudflare Ema
 - ⏱️ Auto-expiring emails with expiry warnings
 - 🗑️ Manual email deletion
 - 🌐 Powered entirely by Cloudflare free tier
+- ⚡ Lightning-fast processing with Cloudflare Workers
 
 ---
 
-## How It Works
+## 🔄 How It Works
 
 ```
 Email sent to your@xxxx
@@ -35,7 +42,7 @@ Telegram notification with Copy Code button
 
 ---
 
-## Stack
+## 🛠️ Stack
 
 - [Cloudflare Workers](https://workers.cloudflare.com/)
 - [Cloudflare KV](https://developers.cloudflare.com/kv/)
@@ -46,7 +53,7 @@ Telegram notification with Copy Code button
 
 ---
 
-## Requirements
+## 📋 Requirements
 
 - Cloudflare account (free)
 - Domain connected to Cloudflare
@@ -55,7 +62,7 @@ Telegram notification with Copy Code button
 
 ---
 
-## Setup
+## 🚀 Setup
 
 ### 1. Clone the repository
 
@@ -115,7 +122,7 @@ wrangler deploy
 
 ---
 
-## Commands
+## 💬 Commands
 
 | Command | Description |
 |---|---|
@@ -124,7 +131,7 @@ wrangler deploy
 
 ---
 
-## Configuration
+## ⚙️ Configuration
 
 Edit constants at the top of `src/index.js` to customize behavior:
 
@@ -136,7 +143,7 @@ Edit constants at the top of `src/index.js` to customize behavior:
 
 ---
 
-## KV Structure
+## 📦 KV Structure
 
 | Key | Description |
 |---|---|
@@ -147,13 +154,12 @@ Edit constants at the top of `src/index.js` to customize behavior:
 
 ---
 
-## License
+## 📄 License
 
 MIT
 
 ---
 
-## Author
+## 👤 Author
 
 [@andiasriefail2004](https://github.com/andiasriefail2004)
-

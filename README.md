@@ -1,7 +1,7 @@
 # FlatMail 📬
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Node.js](https://img.shields.io/badge/Node.js-18+-green?logo=node.js)](https://nodejs.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-20+-green?logo=node.js)](https://nodejs.org/)
 [![Cloudflare Workers](https://img.shields.io/badge/Cloudflare-Workers-FF9900?logo=cloudflare)](https://workers.cloudflare.com/)
 [![Telegram Bot API](https://img.shields.io/badge/Telegram-Bot%20API-0088cc?logo=telegram)](https://core.telegram.org/bots/api)
 [![GitHub](https://img.shields.io/badge/GitHub-andiasriefail2004-black?logo=github)](https://github.com/andiasriefail2004)
